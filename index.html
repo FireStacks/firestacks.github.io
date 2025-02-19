@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FireStacks Portfolio</title>
+  <style>
+    /* Reset some defaults */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 20px auto;
+      overflow: auto;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    section {
+      background: #fff;
+      margin-bottom: 40px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    pre {
+      background: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+
+    pre code {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 0.9em;
+    }
+
+    ul {
+      list-style: disc inside;
+      margin-left: 20px;
+    }
+
+    /* Social and badge links */
+    .social, .badges {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .social a {
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .badges img {
+      margin: 5px;
+    }
+
+    /* Responsive Grid for skills, tools, and stats */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>FireStacks Portfolio</h1>
+      <p>Developer | Tech Enthusiast | Game Dev</p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="https://github.com/FireStacks/FireStacks/blob/main/--.gif?raw=true" alt="Anime Welcome" />
+    <p>
+      <a href="https://api.discord-status.me/1093183800340644000?nitro&boost=4&gradient=%23ffcc15%2C%23bf0dc3%2C%230cc0c3%2C%230cc02d">
+        <img src="https://api.discord-status.me/1093183800340644000?nitro&boost=4&gradient=%23ffcc15%2C%23bf0dc3%2C%230cc0c3%2C%230cc02d" alt="Discord Status" />
+      </a>
+    </p>
+  </div>
+
+  <div class="container">
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi there, I'm <strong>Fire</strong>, a Developer, duh.</p>
+      <pre><code class="javascript">
+const Fire_Stacks = {
+    pronouns: "He" | "Him",
+    code: ["Javascript", "Kotlin", "Python", "Java", "php", "Go", "HTML", "CSS", "SCSS"],
+    askMeAbout: ["web dev", "tech", "game dev", "bot dev"],
+    technologies: {
+        backEnd: { js: ["node", "fastify", "express"] },
+        frontEnd: { js: ["Vue", "Nuxt"], css: ["materialize", "vuetify", "bootstrap"] },
+        mobileApp: { native: ["Android Development", "Ios Development"] },
+        devOps: ["AWS", "Docker🐳"],
+        databases: ["mongo", "MySql", "sqlite"],
+        misc: ["Firebase", "selenium", "open-cv", "php", "SuiteApp"]
+    },
+    architecture: ["Progressive web applications", "Clean game applications", "Advanced Discord Bots"],
+    currentFocus: "Game Development",
+    funFact: "Error Go Brrrrrrrr!"
+};
+      </code></pre>
+      <ul>
+        <li>:computer: My main languages are: <a href="https://www.oracle.com/in/java/technologies/javase-downloads.html" target="_blank">Java</a>, <a href="https://nodejs.org/en/" target="_blank">Node.js</a> and <a href="https://www.python.org" target="_blank">Python</a></li>
+        <li>:school: I'm currently learning: <a href="https://kotlinlang.org" target="_blank">Kotlin</a>, <a href="https://go.dev/?gclid=CjwKCAjwkN6EBhBNEiwADVfya8Ntqc-zur_qGpViciNm2PjC3aM_AOH2v_ll-uYnSCX4hhYDHYynkRoCnGcQAvD_BwE" target="_blank">Go</a> and <a href="https://www.php.net" target="_blank">PHP</a></li>
+        <li>:dart: Fun fact: Though I'm Fire, My Ex Doesn't Find me hot</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Where To Find Me</h2>
+      <div class="social">
+        <a href="https://github.com/FireStacks" target="_blank">
+          <img src="https://img.shields.io/badge/-Github-181717?style=for-the-badge&logo=Github&logoColor=white" alt="Github" />
+        </a>
+        <a href="#">
+          <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid">
+        <!-- Languages & Frameworks -->
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+        <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS" />
+        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+        <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools">
+      <h2>OS & Tools</h2>
+      <div class="grid">
+        <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+        <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+        <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+        <img src="https://img.shields.io/badge/-Git-F05032?logo=Git&style=for-the-badge&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/-Github-181717?logo=Github&style=for-the-badge&logoColor=white" alt="Github" />
+        <img src="https://img.shields.io/badge/-Overleaf-47A141?logo=Overleaf&style=for-the-badge&logoColor=white" alt="Overleaf" />
+        <img src="https://img.shields.io/badge/-vercel-000000?logo=Vercel&style=for-the-badge&logoColor=white" alt="Vercel" />
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats">
+      <h2>Stats</h2>
+      <div class="grid">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FireStacks&layout=compact" alt="Top Langs" />
+        <img src="https://github-readme-activity-graph.cyclic.app/graph?username=FireStacks&theme=merko" alt="Activity Graph" />
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FireStacks. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
